@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from "@angular/core";
 
-import { QuizComponent, QuizOption } from "../../shared/quizz.component";
+import { QuizComponent, QuizOption } from "../../core/components/quizz.component";
 
 @Component({
   selector: "app-three",
