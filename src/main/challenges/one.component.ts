@@ -36,6 +36,10 @@ import { Subscription, interval } from "rxjs";
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
+/**
+ * Fix change detection issue
+ * handle unsubscribe
+ */
 export class OneComponent {
   task = "";
   tasks = ["READ", "CODE"];
