@@ -1,9 +1,12 @@
 import { ChangeDetectionStrategy, Component } from "@angular/core";
 
-import { QuizComponent, QuizOption } from "../../core/components/quizz.component";
+import {
+  QuizComponent,
+  QuizOption,
+} from "../../core/components/quizz.component";
 
 @Component({
-  selector: "app-three",
+  selector: "app-six",
   template: `
     <app-quiz
       question="A farmer has 17 sheep. All but 9 die. How many sheep are left?"
@@ -15,7 +18,7 @@ import { QuizComponent, QuizOption } from "../../core/components/quizz.component
   imports: [QuizComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ThreeComponent {
+export class SixComponent {
   options: QuizOption[] = [
     { value: "8", label: "8 sheep" },
     { value: "9", label: "9 sheep", correct: true },
