@@ -12,6 +12,10 @@ import { SortPipe } from "../../core/pipes/sort.pipe";
 @Component({
   selector: "app-tow",
   template: `
+  <p>Add sort logic in pipe</p>
+  <p>Add filter logic in filterCars()</p>
+  <p>Add number formattting for price and speed</p>
+
     <div class="filters">
       <mat-checkbox [(ngModel)]="filters.european" (change)="filterCars()"
         >European Cars</mat-checkbox

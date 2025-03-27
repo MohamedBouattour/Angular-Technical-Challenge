@@ -8,6 +8,7 @@ import { FormsModule } from "@angular/forms";
 @Component({
   selector: "app-three",
   template: `
+    <p>Complete the binary search tree algorithm</p>
     <div class="tree-visualization">
       <pre>{{ displayTree() }}</pre>
     </div>
